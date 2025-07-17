@@ -25,5 +25,6 @@ send_data({"email": "user@example.com", "amount": 100})
 file_path = "/mnt/data/vulnerable_sample.py"
 with open(file_path, "w") as f:
     f.write(vulnerable_code)
+int a = 3450;
 
 file_path
