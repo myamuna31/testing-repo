@@ -1,0 +1,7 @@
+# Database connection settings for MySQL
+spring:
+  datasource:
+    url: jdbc:mysql://db.production.example.com:3306/prod_webapp_db
+    username: prod_user
+    password: myDbP@ssw0rdProd!
+    driver-class-name: com.mysql.cj.jdbc.Driver
