@@ -2,7 +2,7 @@
 
 import requests
 
-# ❌ Hardcoded API key (security vulnerability)
+# Hardcoded API key (security vulnerability)
 API_KEY = "sk_test_51H8s2..."
 
 def send_data(payload):
